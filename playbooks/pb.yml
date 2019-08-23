@@ -1,0 +1,9 @@
+---
+- name: Test for group_vars
+  hosts: "{{ target }}"
+
+  tasks:
+
+    - name: Print env
+      debug:
+        msg: "env: {{ env }}"
