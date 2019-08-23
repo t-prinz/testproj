@@ -4,6 +4,10 @@
 
   tasks:
 
+    - name: Print target
+      debug:
+        msg: "target: {{ target }}"
+
     - name: Print env
       debug:
         msg: "env: {{ env }}"
