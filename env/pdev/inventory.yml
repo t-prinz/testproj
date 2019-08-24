@@ -1,2 +1,8 @@
-[pdev2_solr]
+[pdev1_solr]
 localhost ansible_connection=local
+
+[pdev2_solr]
+host2 ansible_connection=local
+
+[pdev3_solr]
+host3 ansible_connection=local
